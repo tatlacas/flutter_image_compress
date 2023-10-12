@@ -24,7 +24,7 @@ dependencies:
   flutter_image_compress_web: 
     git: 
       url: git@github.com:tatlacas/flutter_image_compress.git
-      path: packages/flutter_image_compress
+      path: packages/flutter_image_compress_web
       ref: tat-dev
 
 flutter:
