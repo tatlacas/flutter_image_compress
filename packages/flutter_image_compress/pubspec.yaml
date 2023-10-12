@@ -10,22 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
- 
-  flutter_image_compress_platform_interface: 
-    git: 
-      url: git@github.com:tatlacas/flutter_image_compress.git
-      path: packages/flutter_image_compress_platform_interface
-      ref: tat-dev
+  flutter_image_compress_platform_interface: ^1.0.2
   flutter_image_compress_common: 
     git: 
       url: git@github.com:tatlacas/flutter_image_compress.git
       path: packages/flutter_image_compress_common
       ref: tat-dev
-  flutter_image_compress_web: 
-    git: 
-      url: git@github.com:tatlacas/flutter_image_compress.git
-      path: packages/flutter_image_compress_web
-      ref: tat-dev
+  flutter_image_compress_web: ^0.1.3+1
 
 flutter:
   plugin:
